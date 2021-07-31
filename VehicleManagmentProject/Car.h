@@ -12,10 +12,12 @@ using namespace std;
 class Car : protected Vehicle
 {
 private:
+	//Member Data: 
+	// Number of Doors
 	int numDoors = 0;
 public:
-	Car(string manufacterer, int year, int numDoors);
-	Car();
-	void displayInfo();
+	Car(string manufacterer, int year, int numDoors); //Constructor
+	Car(); //Default Constructor
+	void displayInfo(); //Display Car Information
 };
 

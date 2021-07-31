@@ -11,10 +11,13 @@ using namespace std;
 
 class Vehicle {
 private:
+	//Member Data: 
+	// Manufacturer
+	// Year
 	string manufacturer;
 	int year;
 public:
-	Vehicle(string, int);
-	Vehicle();
-	void displayInfo();
+	Vehicle(string, int); //Constructor
+	Vehicle(); //Default Constructor
+	void displayInfo(); //Display Vehicle Information
 };

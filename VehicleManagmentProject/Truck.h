@@ -7,9 +7,11 @@
 class Truck : public Vehicle
 {
 private:
+	//Member Data: 
+	// Towing Capacity
 	double towingCapacity = 0.0;
 public:
-	Truck();
-	Truck(string manufacterer, int year, double towingCapacity);
-	void displayInfo();
+	Truck(); //Default Constructor
+	Truck(string manufacterer, int year, double towingCapacity); //Constructor
+	void displayInfo(); //Display Truck Information
 };
